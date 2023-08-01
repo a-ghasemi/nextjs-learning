@@ -1,3 +1,5 @@
+import Header from './src/header.js';
+
 const app = document.getElementById('app');
 
 function Homepage() {
