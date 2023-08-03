@@ -1,4 +1,4 @@
-import Header from './src/header.js';
+import Header from './header.jsx';
 
 const app = document.getElementById('app');
 
@@ -7,7 +7,7 @@ function Homepage() {
         <div>
             <Header />
         </div>
-    )
+    );
 }
 
 ReactDOM.render(<Homepage />, app);

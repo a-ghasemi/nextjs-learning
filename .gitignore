@@ -23,4 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 /.env
-dist
+app/dist
+/app/package-lock.json
