@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Babel from 'babel';
+
 import Header from './header.jsx';
 
 const app = document.getElementById('app');
