@@ -6,8 +6,10 @@ import Footer from "./footer"
 
 export default function MainPage(){
     return(
-        <Header />
-        <Body />
-        <Footer />
+        <>
+            <Header />
+            <Body />
+            <Footer />
+        </>
     );
 }
