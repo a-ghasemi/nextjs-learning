@@ -1,4 +1,3 @@
-// uncomment for debug purpose
 export default {
     server: {
         host: '0.0.0.0',
