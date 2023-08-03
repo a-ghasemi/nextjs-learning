@@ -1,7 +1,9 @@
 import React from "react";
 
+import Header from "./header"
+
 export default function (){
     return(
-        <h1>Let's do it</h1>
+        <Header />
     );
 }

@@ -1,16 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDom from "react-dom";
 
-import Header from './header.jsx';
+import MainPage from "./mainpage"
 
 const app = document.getElementById('app');
 
-function Homepage() {
-    return(
-        <div>
-            <Header />
-        </div>
-    );
-}
-
-ReactDOM.render(<Homepage />, app);
+ReactDom.render(<MainPage />, app);
