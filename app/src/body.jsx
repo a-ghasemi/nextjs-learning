@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Body(){
+export default function (){
     return(
         <>
             <h2>This is body heading</h2>
