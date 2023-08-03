@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function ({ title, value }){
-    console.log(title,value);
+export default function ({ title }){
     return(
         <>
-            <button>Title</button>
+            <button>{title}</button>
+            <br/>
         </>
     );
 }
