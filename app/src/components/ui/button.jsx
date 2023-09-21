@@ -1,9 +1,14 @@
 import React from "react";
 
-export default function ({ title }){
+export default function ({ title, onClick }){
+
+    const clickHandler = () => {
+        onClick(title);
+    }
+
     return(
         <>
-            <button>{title}</button>
+            <button onClick={clickHandler}>{title}</button>
             <br/>
         </>
     );
