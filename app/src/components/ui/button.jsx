@@ -1,10 +1,12 @@
 import React from "react";
 
-export default function ({ title, onClick }){
+const Button = ({ title, onClick }) => {
 
     const clickHandler = () => {
         onClick(title);
     }
+
+    console.log('Button rendered');
 
     return(
         <>
@@ -13,3 +15,5 @@ export default function ({ title, onClick }){
         </>
     );
 }
+
+export default React.memo(Button)
