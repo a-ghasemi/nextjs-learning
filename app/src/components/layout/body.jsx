@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import Button from "../ui/button";
 import Paragraph from "../ui/paragraph";
 
@@ -7,10 +7,11 @@ export default function (){
 
     const [outputs, setOutputs] = React.useState([]);
 
-    const clickHandler = (title) => {
+    const clickHandler = useCallback( (title) => {
         console.log(title);
         setOutputs((prevOutputs) => ([...prevOutputs, title]))
-    }
+    },[]
+    )
 
     console.log('Body rendered');
 
